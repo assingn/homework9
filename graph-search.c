@@ -274,6 +274,6 @@ void clearVisited(Graph* graph) //방문 여부를 초기화하는 clearVisited 
 {
     for (int i = 0; i < MAX_VERTICES; i++) //i가 0부터 MAX_VERTICES(10)보다 작을 때까지 반복
     {
-        graph->visited[i] = 0; //graph의 visited[i]에 0 할당.
+        graph->visited[i] = 0; //graph의 visited[i]에 0 할당..
     }
 }
